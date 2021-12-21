@@ -15,7 +15,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 		registry.addEndpoint("/ws").withSockJS();
 	}
 	
-	//onfiguring a message broker that will be used to route messages from one client to another.
+	//configuring a message broker that will be used to route messages from one client to another.
 	@Override
 	public void configureMessageBroker(MessageBrokerRegistry registry) {
 		registry.setApplicationDestinationPrefixes("/app");

@@ -1,0 +1,55 @@
+table{
+	width:100%;
+}
+div{
+	margin-left:1px;
+	border:2px dashed;
+	width:300px;
+	height:400px;
+	float:left;
+	text-transform:uppercase;
+}
+
+div.mid{
+	margin-left:1px;
+	text-indent: 50px;
+	border:2px dashed; 
+	border-color:red;
+	text-align:center;
+	width:700px;
+	height:400px;
+	float:left;
+	
+}
+
+img.pos{
+	position: absolute;
+	z-index:1;
+	left: 550px;
+  	top: 320px;
+}
+.new{
+	font-style:italic;
+	font-size:50px;
+	font-weight:bold;
+	color:hotpink;
+}
+a:link{
+	color:hotpink;
+}
+
+a:hover{
+	color:blue;
+}
+
+a:visited {
+	color:green;
+}
+a:active{
+	color:red;
+}
+
+body
+{
+	background-color: cornsilk;
+}
