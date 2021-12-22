@@ -6,12 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-//@NamedQueries({
-//	@NamedQuery(
-//			name="findUserByName",
-//			query="from Registration u where u.fullName= :fullName"
-//			)
-//})
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

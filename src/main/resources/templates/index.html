@@ -11,19 +11,20 @@
       <h2>Sorry! Your browser doesn't support Javascript</h2>
     </noscript>
     
-    <nav class="nav navbar-expand-md navbar-dark" style="background-color:black">
-    	<div>
-    		<a th:href="@{/}" class="navbar-brand">Home</a>
-    	</div>
-    	<ul class="navbar-nav">
+    <nav class="navbar navbar-expand-md navbar-dark"
+			style="background-color: black">
+			<div>
+				<a th:href="@{/}" class="navbar-brand">Home</a>
+			</div>
+
+			<ul class="navbar-nav">
 				<li><a th:href="@{/users}"
 					class="nav-link">Display users</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 				<li><a th:href="@{/logout}"
 					class="nav-link">Logout</a></li>
-		</ul>
-		
+			</ul>
 		</nav>
 
     <div id="username-page">

@@ -72,10 +72,18 @@ function onMessageReceived(payload) {
 
     if(message.type === 'JOIN') {
         messageElement.classList.add('event-message');
-        message.content = message.sender + ' joined!';
+		var d=new Date();
+        message.content = message.sender + ' joined at '+ d.getDate()+"-"+ d.getMonth() 
++ "-" + d.getFullYear() + " @ " 
++ d.getHours() + ":" 
++ d.getMinutes() + ":" + d.getSeconds();
     } else if (message.type === 'LEAVE') {
         messageElement.classList.add('event-message');
-        message.content = message.sender + ' left!';
+		var d=new Date();
+        message.content = message.sender + ' left at '+ d.getDate()+"-"+ d.getMonth() 
++ "-" + d.getFullYear() + " @ " 
++ d.getHours() + ":" 
++ d.getMinutes() + ":" + d.getSeconds();
     } else {
         messageElement.classList.add('chat-message');
 
